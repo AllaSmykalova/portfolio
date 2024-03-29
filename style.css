@@ -1,0 +1,50 @@
+#sect {
+    background-image: url(imgs/178384_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accent {
+    background-color: #c590bdcf;
+
+}
+
+.line {
+    background-color: #53377a;
+    width: 300px;
+    height: 3px;
+}
+
+th {
+    background-color: #5a134ebc !important;
+}
+
+.page-link {
+    color: #53377a !important;
+    border-color: #53377a !important;
+}
+
+/* Класс для главных кнопок */
+.btn-primary {
+    background-color: #53377a !important;
+    color: white !important;
+}
+
+/* 
+Для того чтобы выделить текущую страницу
+среди всех кнопок пагинации
+*/
+.current .page-link {
+    background-color: #53377a !important;
+    color: white !important;
+}
+
+/* Нужен для того, чтобы скрывать элементы */
+.hidden {
+    /* Режим отображения: не отображать */
+    display: none;
+}
+
+body {
+    min-height: 100vh;
+}
